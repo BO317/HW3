@@ -6,7 +6,7 @@ function App() {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch("http://127.0.0.1:5000/api/getname", {
+      const response = await fetch("https://boliang317.pythonanywhere.com/api/getname", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
